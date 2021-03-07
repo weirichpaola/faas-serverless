@@ -1,0 +1,25 @@
+{
+  "name": "faas-serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:lambda": "netlify-lambda serve src/functions",
+    "build:lambda": "netlify-lambda build src/functions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weirichpaola/faas-serverless.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weirichpaola/faas-serverless/issues"
+  },
+  "homepage": "https://github.com/weirichpaola/faas-serverless#readme",
+  "dependencies": {
+    "netlify-lambda": "^2.0.3"
+  }
+}
