@@ -1,3 +1,5 @@
 [build]
   Functions = "lambda"
   Command = "npm run build:lambda"
+[env]
+   BITLY_TOKEN = "e04a93cbb29616148c8e5d79cfc7b94386e9c6c1"
